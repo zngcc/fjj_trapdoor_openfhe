@@ -7,10 +7,10 @@ target_include_directories(ckks_demo PRIVATE
     )
 target_link_libraries(ckks_demo ${OpenFHE_LIBRARIES})
 
-
-add_executable(opfhe_trapdoor_demo openfhe_trapdoortest.cpp)
-target_include_directories(opfhe_trapdoor_demo PRIVATE 
+add_executable(dcrt_demo dcrt_demo.cpp)
+target_include_directories(dcrt_demo PRIVATE 
     ${CMAKE_SOURCE_DIR}/include 
     ${OPENFHE_INCLUDE_DIRS}
     )
-target_link_libraries(opfhe_trapdoor_demo ${OpenFHE_LIBRARIES})
+target_link_libraries(dcrt_demo ${OpenFHE_LIBRARIES})
+

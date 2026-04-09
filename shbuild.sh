@@ -9,5 +9,8 @@ make -j2
 # # 运行CKKS示例
 # ./examples/ckks_demo
 # ./examples/opfhe_trapdoor_demo
+# ./examples/dcrt_demo
+# ./src/trapibe_openfhe_fjj
 
-./src/trapibe_openfhe_fjj
+
+./src/trapibe_openfhe_fjj 2>&1 | tee output.log

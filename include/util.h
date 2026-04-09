@@ -2,6 +2,7 @@
 #include <vector>
 #include <string>
 #include <chrono>
+
 // 性能测量工具类
 class Timer {
 private:
@@ -41,4 +42,3 @@ double calculate_max_error(const std::vector<double>& result,
     }
     return max_error;
 }
-
